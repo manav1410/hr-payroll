@@ -92,8 +92,6 @@ import ResetPassword3 from "../auth/resetPassword/resetPassword-3";
 import ResetPasswordSuccess from "../auth/resetPasswordSuccess/resetPasswordSuccess";
 import ResetPasswordSuccess2 from "../auth/resetPasswordSuccess/resetPasswordSuccess-2";
 import ResetPasswordSuccess3 from "../auth/resetPasswordSuccess/resetPasswordSuccess-3";
-
-import RolesPermissions from "../userManagement/rolesPermissions";
 import Manageusers from "../userManagement/manageusers";
 import Profilesettings from "../settings/generalSettings/profile-settings";
 import Securitysettings from "../settings/generalSettings/security-settings";
@@ -286,6 +284,10 @@ import { label } from "yet-another-react-lightbox/*";
 import Features from "../features/Features";
 import ShiftsManagement from "../shift management/ShiftsManagement";
 import PayrollTemplate from "../PayrollTemplate/PayrollTemplate";
+import DynamicAttendance from "../hrm/attendance/DynamicAttendance";
+import LeaveTemplate from "../leaveTemplate/LeaveTemplate";
+import HolidayGroup from "../HolidayGroup/HolidayGroup";
+import HolidayGroups from "../HolidayGroup/HolidayGroup";
 const routes = all_routes;
 
 export const publicRoutes = [
@@ -1344,10 +1346,6 @@ export const publicRoutes = [
     element: <Storage />,
   },
   {
-    path: routes.rolesPermissions,
-    element: <RolesPermissions />,
-  },
-  {
     path: routes.permissionpage,
     element: <PermissionPage />,
     label: "Permission"
@@ -1740,6 +1738,12 @@ export const publicRoutes = [
     route: Route,
   },
   {
+    label: 'Attendance',
+    path: routes.attendance,
+    element: <DynamicAttendance />,
+    route: Route,
+  },
+  {
     label: 'Timesheet',
     path: routes.timesheet,
     element: <TimeSheet />,
@@ -1893,6 +1897,18 @@ export const publicRoutes = [
     element: <PayrollTemplate />,
     route: Route,
     label: "Payroll Templates"
+  },
+  {
+    path: routes.leaveTemplate,
+    element: <LeaveTemplate />,
+    route: Route,
+    label: "Leave Templates"
+  },
+  {
+    path: routes.holidayGroup,
+    element: <HolidayGroups />,
+    route: Route,
+    label: "Holiday Group"
   },
 ];
 

@@ -5,6 +5,10 @@ export const all_routes = {
   leadsDashboard: "/leads-dashboard",
   dealsDashboard: "/deals-dashboard",
 
+  attendance: "/attendance",
+  attendanceadmin: "/attendance-admin",
+  attendanceemployee: "/attendance-employee",
+
   //Application routes
   chat: "/application/chat",
   voiceCall: "/application/voice-call",
@@ -27,6 +31,8 @@ export const all_routes = {
   adminFeatures:"/admin/features",
   shiftManagement: "/shiftManagement",
   payrollTemplate: '/payrolltemplate',
+  leaveTemplate: '/leavetemplate',
+  holidayGroup: '/holidaygroup',
 
 
 
@@ -362,8 +368,7 @@ export const all_routes = {
   leaveadmin: "/leaves",
   leaveemployee: "/leaves-employee",
   leavesettings: "/leave-settings",
-  attendanceadmin: "/attendance-admin",
-  attendanceemployee: "/attendance-employee",
+
   timesheet: "/timesheets",
   scheduletiming: "/schedule-timing",
   overtime: "/overtime",

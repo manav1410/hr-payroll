@@ -17,6 +17,7 @@ export const EDIT_USER  =  "/api/user/editUser/"
 export const UPLOAD_USERS_EXCEL  =  "/api/user/uploaduserexcel"
 export const ADD_NEW_FEATURE  =  "/api/feature/addfeature"
 export const FETCH_ALL_DEPARTMENTS  =  "/api/department/getlist"
+export const ADD_NEW_DEPARTMENTS  =  "/api/department/addDepartments"
 export const FETCH_ROLES_PERMISSIONS  =  "/api/settings/rolespermissions"
 
 export const FETCH_ALL_SHIFTS  =  "/api/shifts/list"
@@ -28,6 +29,29 @@ export const ADD_NEW_PAYROLL_TEMPLATE  =  "/api/payrollTemplate/addNew"
 export const FETCH_ALL_PAYROLL_TEMPLATE_LIST  =  "/api/payrollTemplate/list"
 export const FETCH_ALL_COMPONENTS_OF_TEMPLATE  =  "/api/payrollTemplate/templateCOmponents/"
 export const EDIT_TEMPLATE_AND_COMPONENTS =  "/api/payrollTemplate/edit/"
+
+
+export const FETCH_COMPANYS_EMPLOYEES =  "/api/user/getcompanyusers/"
+
+export const FETCH_COMPANYS_DATE_ATTENDANCE =  "/api/attendance/companyAttendanceByDate/"
+export const PUNCH_ATTENDANCE =  "/api/attendance/markattendance"
+
+export const ADD_HOLIDAY_GROUP_NEW =  "/api/holidaygroup/addnewholidaygroup"
+export const FETCH_HOLIDAY_GROUP_NEW =  "/api/holidaygroup/listall"
+export const FETCH_HOLIDAY_BY_GROUPiD =  "/api/holiday/getbygroupid/"
+export const ADD_NEW_HOLIDAY =  "/api/holiday/addnewholiday"
+
+export const ADD_NEW_LEAVE_TEMPLATE =  "/api/leaveTemplate/addnewleavetemplate"
+
+
+
+
+
+ 
+
+
+
+
 
 
 
